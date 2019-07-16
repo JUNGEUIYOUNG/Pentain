@@ -1,0 +1,19 @@
+ <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/layout}">
+
+<head>
+  <title th:text="#{common.search.title}">Search</title>
+</head>
+
+<body>
+<div layout:fragment="content">
+ <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800"><span th:text="#{search}"></span></h1>
+          </div>
+         </div>
+       </body>
+     </html>
